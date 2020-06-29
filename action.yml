@@ -1,0 +1,6 @@
+# action.yml
+name: 'drone-helm'
+description: 'This is a plugin used by the Athens CI/CD system to publish Drone Charts'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
