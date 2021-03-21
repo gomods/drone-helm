@@ -2,7 +2,7 @@
 
 set -xeuo pipefail
 
-helm init --client-only
+helm init --client-only --stable-repo-url https://charts.helm.sh/stable
 
 #####
 # set up the repo dir, and package up all charts
